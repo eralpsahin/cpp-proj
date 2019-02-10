@@ -1,0 +1,7 @@
+# Ignore extensionles files
+*
+!/**/
+!*.*
+
+bin/
+.DS_Store
