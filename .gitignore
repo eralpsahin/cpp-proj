@@ -3,6 +3,9 @@
 !/**/
 !*.*
 
-bin/
+# ignore only binaries
+bin/*
+!bin/.gitkeep
+
 .DS_Store
 .vscode/settings.json
