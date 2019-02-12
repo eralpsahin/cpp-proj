@@ -5,8 +5,6 @@
 
 using namespace std;
 
-
-
 int main() {
 	auto start = chrono::high_resolution_clock::now(); 
 
