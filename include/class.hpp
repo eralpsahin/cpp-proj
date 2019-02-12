@@ -1,15 +1,15 @@
-#ifndef HEADER_H
-#define HEADER_H
+#ifndef HEADER_H_
+#define HEADER_H_
 
 //Header
 
 class Sample {
-
-  int datum;
-  
-public:
+ public:
   Sample();
   ~Sample();
+
+ private:
+  int datum_;
 };
 
-#endif
+#endif // HEADER_H_
