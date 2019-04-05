@@ -1,6 +1,5 @@
 CC		:= g++
-#C_FLAGS := -std=c++17 -Wall -Wextra -g
-C_FLAGS := -g -std=c++1z
+CC_FLAGS := -g -std=c++1z -Wall -Wextra -g
 
 BIN		:= bin
 SRC		:= src
@@ -22,4 +21,4 @@ run: all
 	./$(BIN)/$(EXECUTABLE)
 
 $(BIN)/$(EXECUTABLE): $(SRC)/* $(INCLUDE)/*
-	$(CC) $(C_FLAGS) -I$(INCLUDE) -L$(LIB) $(SRC)/* -o $@ $(LIBRARIES)
+	$(CC) $(CC_FLAGS) -I$(INCLUDE) -L$(LIB) $(SRC)/* -o $@ $(LIBRARIES)
