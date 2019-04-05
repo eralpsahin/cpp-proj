@@ -1,7 +1,7 @@
 #ifndef HEADER_H_
 #define HEADER_H_
 
-//Header
+// Header
 
 class Sample {
  public:
@@ -12,4 +12,4 @@ class Sample {
   int datum_;
 };
 
-#endif // HEADER_H_
+#endif  // HEADER_H_
