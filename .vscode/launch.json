@@ -6,13 +6,16 @@
       "type": "cppdbg",
       "request": "launch",
       "preLaunchTask": "build all",
-      "program": "${workspaceFolder}/bin/Main",
+      "program": "${workspaceFolder}/bin/main",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
       "externalConsole": true,
-      "MIMode": "lldb"
+      "MIMode": "lldb",
+      "logging": {
+        "trace": true
+      }
     }
   ]
 }

@@ -1,5 +1,5 @@
 CC		:= g++
-CC_FLAGS := -g -std=c++1z -Wall -Wextra -g
+CC_FLAGS := -g -std=c++1z -Wall -Wextra
 
 BIN		:= bin
 SRC		:= src
