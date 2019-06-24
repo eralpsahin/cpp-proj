@@ -12,6 +12,8 @@ EXECUTABLE	:= main
 DSYM := main.dSYM
 RM := rm -rf
 
+.PHONY: all clean run
+
 all: $(BIN)/$(EXECUTABLE)
 
 clean:
